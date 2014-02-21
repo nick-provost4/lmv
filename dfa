@@ -1,0 +1,29 @@
+[33mcommit 690cd8e9eb2a332ac05d7487d1564a93d3b4dd4b[m
+Author: OpenShift guest <mjpsr11@gmail.com>
+Date:   Thu Feb 20 20:57:05 2014 -0500
+
+    added home page controller and view
+
+[33mcommit 491a1df7bebcb5b8a4ff3b53ba69d8425d565fab[m
+Author: OpenShift guest <mjpsr11@gmail.com>
+Date:   Thu Feb 20 15:05:38 2014 -0500
+
+    added README.md
+
+[33mcommit 58b900a0ad9effbbb69031764e6277ff319f5eaa[m
+Author: OpenShift guest <mjpsr11@gmail.com>
+Date:   Thu Feb 20 14:46:30 2014 -0500
+
+    added a dummy test file blog.php to controller
+
+[33mcommit d891b9080a257210f3741f5af0f10fa369825226[m
+Author: OpenShift guest <mjpsr11@gmail.com>
+Date:   Thu Feb 20 14:06:02 2014 -0500
+
+    Initial commit
+
+[33mcommit db4633b3f132273c6d9f5deaf5b3e16ace017637[m
+Author: OpenShift guest <mjpsr11@gmail.com>
+Date:   Thu Feb 20 12:49:18 2014 -0500
+
+    first commit
