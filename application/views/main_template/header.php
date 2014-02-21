@@ -1,8 +1,8 @@
 <?php
 echo '<html>
 <head>
-<title>My Blog</title>
+<title>'.$title.'</title>
 </head>
 <body>
-	<h1>This is the header.</h1>
+    <h1>This is the header.</h1>
 ';

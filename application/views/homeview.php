@@ -1,4 +1,4 @@
 <?php
 echo '
-    <br><h1>This is the '.$page.' page contents.</h1>
+    <br><h1>'.$content.'</h1>
     ';
