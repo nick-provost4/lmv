@@ -17,3 +17,6 @@ class MY_Loader extends CI_Loader {
         }
     }
 }
+
+/* End of MY_Loader.php */
+/* Location: ./application/core/MY_Loader.php */
