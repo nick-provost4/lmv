@@ -1,1 +1,1 @@
-      <h1>Blueprint Tests: grid.css</h1>
+      <h1>This is the Home page</h1>
