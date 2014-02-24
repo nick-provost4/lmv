@@ -1,3 +1,3 @@
-<br>This is not the footer.
+<footer>This is not the footer.</footer
 </div></body>
 </html>

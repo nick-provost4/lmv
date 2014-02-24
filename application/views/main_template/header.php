@@ -1,11 +1,13 @@
 <html>
 <head>
 <title><?=$title?></title>
-<link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
-<link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print">
-<!--[if lt IE 8]>
-  <link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection">
-<![endif]-->
+  <link href="stylesheets/main.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <link href="stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+  <!--[if IE]>
+      <link href="stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <![endif]-->
 </head>
-<body>
-    <div class="container showgrid"><h1>Matt's Header!</h1>
+<body class="bp">
+	<div class="container showgrid">
+	<header>Matt's Header!</header>
