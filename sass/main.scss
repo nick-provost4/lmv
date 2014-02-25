@@ -1,0 +1,8 @@
+// This is the main scss file to create custom css
+// It imports the partials/_base.scss file to get common variables
+// then it is imported into the screen.scss file to create the final screen.css file
+
+@import "partials/base";
+.test {
+	color : $test-color;
+}

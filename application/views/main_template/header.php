@@ -8,6 +8,6 @@
       <link href="stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
   <![endif]-->
 </head>
-<body class="bp">
-	<div class="container showgrid">
-	<header>Matt's Header!</header>
+<body class="bp two-col">
+	<div id="container" class="showgrid">
+	<header class="test">Matt's Header!</header>
