@@ -12,6 +12,7 @@
 </head>
 <body>
 	<div class="container showgrid">
-	<div id="header" class="hbground">(Header) <div id="toggle-grid"><button>Toggle-grid</button></div><br />
-		This is the header
-	</div>
+		<div id="header" class="hbground">(Header) <div id="toggle-grid"><button>Toggle-grid</button></div><br />
+			<img class="hlogo" src="images/logo.png">
+			This is the header
+		</div>

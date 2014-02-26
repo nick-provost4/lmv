@@ -57,45 +57,42 @@ a img {
   border: none;
 }
 
-/* line 9, ../sass/main.scss */
+/* line 10, ../sass/partials/_main.scss */
 #header {
   height: 120px;
   border: solid 2px #a9bcf5;
 }
 
-/* line 13, ../sass/main.scss */
+/* line 14, ../sass/partials/_main.scss */
 .hbground {
-  background-color: #a9bcf5;
+  background-image: url("../images/header-bg.png");
 }
 
-/* line 17, ../sass/main.scss */
+/* line 18, ../sass/partials/_main.scss */
+.hlogo {
+  width: 350px;
+  margin-top: -10px;
+  padding-left: 40px;
+}
+
+/* line 24, ../sass/partials/_main.scss */
+#toggle-grid {
+  float: right;
+  margin-right: 2px;
+}
+
+/* line 30, ../sass/partials/_main.scss */
 #content {
   min-height: 400px;
   border: solid 2px #81f79f;
 }
 
-/* line 21, ../sass/main.scss */
+/* line 34, ../sass/partials/_main.scss */
 .cbground {
   background-color: #81f79f;
 }
 
-/* line 25, ../sass/main.scss */
-#footer {
-  height: 120px;
-  border: solid 2px #f7c694;
-}
-
-/* line 29, ../sass/main.scss */
-.fbground {
-  background-color: #f7c694;
-}
-
-/* line 34, ../sass/main.scss */
-.left-indent {
-  margin-left: 60px;
-}
-
-/* line 38, ../sass/main.scss */
+/* line 38, ../sass/partials/_main.scss */
 .listing {
   margin-left: 30px;
   padding: 5px;
@@ -109,11 +106,20 @@ a img {
   height: 100px;
 }
 
-/* line 47, ../sass/main.scss */
-#toggle-grid {
-  float: right;
-  color: blue;
-  margin-right: 2px;
+/* line 48, ../sass/partials/_main.scss */
+#footer {
+  height: 120px;
+  border: solid 2px #f7c694;
+}
+
+/* line 52, ../sass/partials/_main.scss */
+.fbground {
+  background-color: #f7c694;
+}
+
+/* line 58, ../sass/partials/_main.scss */
+.left-indent {
+  margin-left: 60px;
 }
 
 /* line 33, ../../lib/ruby/gems/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
