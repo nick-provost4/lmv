@@ -3,6 +3,49 @@
 // then it is imported into the screen.scss file to create the final screen.css file
 
 @import "partials/base";
-.test {
-	color : $test-color;
+@import "blueprint/grid";
+@import "compass/css3/border-radius";
+
+#header {
+	height: 120px;
+	border: solid 2px $header-border-color;
+}
+.hbground {
+	background-color: $header-border-color;
+}
+
+#content {
+	min-height: 400px;
+	border: solid 2px $content-border-color;
+}
+.cbground {
+	background-color: $content-border-color;
+}
+
+#footer {
+	height: 120px;
+	border: solid 2px $footer-border-color;
+}
+.fbground {
+	background-color: $footer-border-color;
+}
+
+$indent-columns: 2;
+.left-indent {
+	margin-left: ($indent-columns*$blueprint-grid-width);
+}
+
+.listing {
+	margin-left: span(1);
+	padding: (5px);
+	@include border-radius;
+	border: 2px solid;
+	width: span($blueprint-grid-columns - 2);
+	height: 100px;
+}
+
+#toggle-grid {
+	float: right;
+	color: blue;
+	margin-right: 2px;
 }
