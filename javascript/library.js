@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 	$(".container").toggleClass("showgrid");
 
-	$("#toggle-grid").click( function( event ) {
+	$(".toggle-grid").click( function( event ) {
 		$(".container").toggleClass("showgrid");
 		$("#header").toggleClass("hbground");
 		$("#content").toggleClass("cbground");

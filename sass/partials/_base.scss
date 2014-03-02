@@ -9,6 +9,13 @@ $blueprint-grid-margin: 10px;
 // Or you can set $blueprint-grid-width to a fixed value and unset $blueprint-container-size -- it will be calculated for you.
 $blueprint-grid-width: ($blueprint-container-size + $blueprint-grid-margin) / $blueprint-grid-columns - $blueprint-grid-margin;
 
+
+// color variables
 $header-border-color : #A9BCF5; // blue
 $content-border-color: #81F79F; // green
 $footer-border-color: #F7C694; // brown
+$background-color: #71FCFC; // light blue
+$top-bar-color: #7d92c7; // medium blue
+$banner-color: #aabff2; // blue
+$backmat-color: #e8fbff; // light blue
+$signin-color: #FFFFFF;

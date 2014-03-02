@@ -6,49 +6,118 @@
 @import "blueprint/grid";
 @import "compass/css3/border-radius";
 
-// header classes
-#header {
-	height: 120px;
-	border: solid 2px $header-border-color;
+// container classes
+.topbar{
+	.signin {
+		float: right;
+		line-height: 40px;
+		color: $signin-color;
+		font-size: 12px;
+		font-family: 'PT Sans',Arial,Helvetica,sans-serif;
+	}
+	background-color: $top-bar-color;
+	height: 40px;
 }
+
+// header classes
+.bannertop {
+	background-color: $banner-color;
+}
+
+
+body {
+	background-color: $backmat-color;
+}
+
+.container {
+	z-index: 10;
+}
+
+#header {
+	.search {
+		float: right;
+		margin-right: 20px;
+	}
+	.menu {
+		position: absolute;
+		font-size: 16px;
+		background-color: white;
+		width: $blueprint-container-size - 50px;
+		margin-left: 20px;
+		height: 25px;
+		margin-top: -5;
+		padding: 5px;
+		@include border-radius(4px, 4px);
+	}
+	.menu_item {
+		text-decoration: none;
+	}
+	height: 120px;
+}
+
+a.menu_item, a.menu_item:hover {
+	color: $banner-color;
+}
+
+.imgsearch {
+	width: 23px;
+	margin-left: 275px;
+	position: absolute;
+	margin-top: -30;
+}
+
+.boxsearch {
+	@include border-radius(4px, 4px);
+}
+
 .hbground {
 	background-image: url("../images/header-bg.png");
 }
 
 .hlogo {
-	width: 350px;
-	margin-top: -10px;
+	width: 280px;
 	padding-left: 40px;
+	padding-top: 10px;
 }
 
-#toggle-grid {
-	float: right;
-	margin-right: 2px;
+.toggle-grid {
+	right: 2px;
+	position: absolute;
 }
 
 // content classes
 #content {
 	min-height: 400px;
-	border: solid 2px $content-border-color;
 }
 .cbground {
-	background-color: $content-border-color;
+	padding: 5px;
+	.listing {
+		padding: 15px;
+		@include border-radius;
+		width: span($blueprint-grid-columns) -10px;
+		height: 100px;
+		background-color: #ffffff;
+		border: 1px solid #ccc;
+		border-top: none;
+		border-bottom: 1px solid;
+		margin-top: 5px;
+		margin-bottom: 10px;
+	}
 }
 
-.listing {
-	margin-left: span(1);
-	padding: (5px);
-	@include border-radius;
-	border: 2px solid;
-	width: span($blueprint-grid-columns - 2);
-	height: 100px;
-}
 
 // footer classes
 #footer {
 	height: 120px;
-	border: solid 2px $footer-border-color;
+	background-color: $top-bar-color;
+	.bmenu {
+		line-height: 40px;
+		color: $signin-color;
+		font-size: 12px;
+		font-family: 'PT Sans',Arial,Helvetica,sans-serif;
+	}
 }
+
 .fbground {
 	background-color: $footer-border-color;
 }
@@ -57,4 +126,39 @@
 $indent-columns: 2;
 .left-indent {
 	margin-left: ($indent-columns*$blueprint-grid-width);
+}
+
+.divider {
+	color: #ffcb3f;
+	font-size: 12px;
+	font-weight: 500;
+	display: inline;
+	margin: 0 8px;
+}
+
+.social {
+	float:right;
+	ul {
+		list-style: none;
+		li {
+			color:#fff;
+			vertical-align:middle;
+			padding:0 1px;
+			font-weight:bold;
+			display: inline-block;
+		}
+	}
+	a.simg {
+		width: 32px;
+		height: 32px;
+		display: block;
+	}
+	a.ico-facebook { background: url("../images/social-main-sprite.png") no-repeat -16px -1px; }
+	a.ico-facebook:hover { background:url("../images/social-main-sprite.png") no-repeat -16px -37px; }
+	a.ico-twitter{background:url("../images/social-main-sprite.png") no-repeat -56px -1px}
+	a.ico-twitter:hover{background:url("../images/social-main-sprite.png") no-repeat -56px -37px}
+	a.ico-google{background:url("../images/social-main-sprite.png") no-repeat -176px -1px}
+	a.ico-google:hover{background:url("../images/social-main-sprite.png") no-repeat -176px -37px}
+	a.ico-blog{background:url("../images/social-main-sprite.png") no-repeat -215px -1px}
+	a.ico-blog:hover{background:url("../images/social-main-sprite.png") no-repeat -215px -37px}
 }
