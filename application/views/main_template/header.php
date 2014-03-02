@@ -23,10 +23,13 @@
 		<div class="container showgrid">
 			<div id="header" class="hbground">
 				<img class="hlogo" alt="Vacation Rentals Discounts" src="images/logo.png">
-				<?php $this->load->view('main_template/searchbar');?>
 				<!-- <div class="menu">
 					<?php // echo anchor('home', 'Home', array('class'=>'menu_item', 'title'=>'Home page')); ?>
 				</div> -->
+			</div>
+			<div class="bottombar">
+				Vacation Rentals Only! - Discounts Only!
+				<?php $this->load->view('main_template/searchbar');?>
 			</div>
 		</div>
 	</div>
