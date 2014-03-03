@@ -128,11 +128,12 @@ body {
 }
 
 /* line 70, ../sass/partials/_main.scss */
-a.menu_item, a.menu_item:hover {
-  color: #aabff2;
+a.menu_item, a.menu_item:hover, a.menu_item:visited {
+  color: white;
+  text-decoration: none;
 }
 
-/* line 74, ../sass/partials/_main.scss */
+/* line 75, ../sass/partials/_main.scss */
 .imgsearch {
   width: 20px;
   position: absolute;
@@ -141,19 +142,19 @@ a.menu_item, a.menu_item:hover {
   right: 5;
 }
 
-/* line 82, ../sass/partials/_main.scss */
+/* line 83, ../sass/partials/_main.scss */
 .boxsearch {
   -webkit-border-radius: 4px 4px;
   -moz-border-radius: 4px / 4px;
   border-radius: 4px / 4px;
 }
 
-/* line 86, ../sass/partials/_main.scss */
+/* line 87, ../sass/partials/_main.scss */
 .hbground {
   background: url("../images/header-bg.png") no-repeat;
 }
 
-/* line 90, ../sass/partials/_main.scss */
+/* line 91, ../sass/partials/_main.scss */
 .hlogo {
   width: 280px;
   padding-left: 40px;
@@ -161,22 +162,22 @@ a.menu_item, a.menu_item:hover {
   float: left;
 }
 
-/* line 97, ../sass/partials/_main.scss */
+/* line 98, ../sass/partials/_main.scss */
 .toggle-grid {
   right: 2px;
   position: absolute;
 }
 
-/* line 103, ../sass/partials/_main.scss */
+/* line 104, ../sass/partials/_main.scss */
 #content {
   min-height: 400px;
 }
 
-/* line 107, ../sass/partials/_main.scss */
+/* line 108, ../sass/partials/_main.scss */
 .cbground {
   padding: 5px;
 }
-/* line 109, ../sass/partials/_main.scss */
+/* line 110, ../sass/partials/_main.scss */
 .cbground .listing {
   clear: both;
   padding: 15px;
@@ -195,7 +196,7 @@ a.menu_item, a.menu_item:hover {
   margin-bottom: 10px;
 }
 
-/* line 124, ../sass/partials/_main.scss */
+/* line 125, ../sass/partials/_main.scss */
 .about {
   float: left;
   padding: 5px;
@@ -210,7 +211,7 @@ a.menu_item, a.menu_item:hover {
   margin-bottom: 10px;
 }
 
-/* line 138, ../sass/partials/_main.scss */
+/* line 139, ../sass/partials/_main.scss */
 .search {
   float: right;
   padding: 5px;
@@ -225,12 +226,12 @@ a.menu_item, a.menu_item:hover {
   margin-bottom: 10px;
 }
 
-/* line 154, ../sass/partials/_main.scss */
+/* line 155, ../sass/partials/_main.scss */
 #footer {
   height: 80px;
   background-color: #7d92c7;
 }
-/* line 157, ../sass/partials/_main.scss */
+/* line 158, ../sass/partials/_main.scss */
 #footer .bmenu {
   line-height: 40px;
   color: white;
@@ -238,17 +239,17 @@ a.menu_item, a.menu_item:hover {
   font-family: 'PT Sans',Arial,Helvetica,sans-serif;
 }
 
-/* line 165, ../sass/partials/_main.scss */
+/* line 166, ../sass/partials/_main.scss */
 .fbground {
   background-color: #f7c694;
 }
 
-/* line 171, ../sass/partials/_main.scss */
+/* line 172, ../sass/partials/_main.scss */
 .left-indent {
   margin-left: 60px;
 }
 
-/* line 175, ../sass/partials/_main.scss */
+/* line 176, ../sass/partials/_main.scss */
 .divider {
   color: #ffcb3f;
   font-size: 12px;
@@ -257,57 +258,56 @@ a.menu_item, a.menu_item:hover {
   margin: 0 8px;
 }
 
-/* line 183, ../sass/partials/_main.scss */
+/* line 184, ../sass/partials/_main.scss */
 .social {
   float: right;
 }
-/* line 185, ../sass/partials/_main.scss */
+/* line 186, ../sass/partials/_main.scss */
 .social ul {
   list-style: none;
 }
-/* line 187, ../sass/partials/_main.scss */
+/* line 188, ../sass/partials/_main.scss */
 .social ul li {
   color: #fff;
   vertical-align: middle;
   padding: 0 1px;
-  font-weight: bold;
   display: inline-block;
 }
-/* line 195, ../sass/partials/_main.scss */
+/* line 196, ../sass/partials/_main.scss */
 .social a.simg {
   width: 32px;
   height: 32px;
   display: block;
 }
-/* line 200, ../sass/partials/_main.scss */
+/* line 201, ../sass/partials/_main.scss */
 .social a.ico-facebook {
   background: url("../images/social-main-sprite.png") no-repeat -16px -1px;
 }
-/* line 201, ../sass/partials/_main.scss */
+/* line 202, ../sass/partials/_main.scss */
 .social a.ico-facebook:hover {
   background: url("../images/social-main-sprite.png") no-repeat -16px -37px;
 }
-/* line 202, ../sass/partials/_main.scss */
+/* line 203, ../sass/partials/_main.scss */
 .social a.ico-twitter {
   background: url("../images/social-main-sprite.png") no-repeat -56px -1px;
 }
-/* line 203, ../sass/partials/_main.scss */
+/* line 204, ../sass/partials/_main.scss */
 .social a.ico-twitter:hover {
   background: url("../images/social-main-sprite.png") no-repeat -56px -37px;
 }
-/* line 204, ../sass/partials/_main.scss */
+/* line 205, ../sass/partials/_main.scss */
 .social a.ico-google {
   background: url("../images/social-main-sprite.png") no-repeat -176px -1px;
 }
-/* line 205, ../sass/partials/_main.scss */
+/* line 206, ../sass/partials/_main.scss */
 .social a.ico-google:hover {
   background: url("../images/social-main-sprite.png") no-repeat -176px -37px;
 }
-/* line 206, ../sass/partials/_main.scss */
+/* line 207, ../sass/partials/_main.scss */
 .social a.ico-blog {
   background: url("../images/social-main-sprite.png") no-repeat -215px -1px;
 }
-/* line 207, ../sass/partials/_main.scss */
+/* line 208, ../sass/partials/_main.scss */
 .social a.ico-blog:hover {
   background: url("../images/social-main-sprite.png") no-repeat -215px -37px;
 }

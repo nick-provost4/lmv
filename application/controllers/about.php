@@ -5,7 +5,7 @@ class About extends CI_Controller {
 	{
 		$vars['title'] = 'About Page';
 		$vars['content'] = 'This is the About page contents.';
-		$this->load->template_main('homeview', $vars);
+		$this->load->template_main('frontend/homeview', $vars);
 	}
 
 }

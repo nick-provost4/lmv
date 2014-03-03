@@ -14,8 +14,9 @@
 	<div class="topbar">
 		<div class="container showgrid topbanner">
 			<div class="signin">
-				<?php $this->load->view('main_template/social');?>
-				Sign-in<span class="divider">|</span>Create account<span class="divider">|</span>Email notifications
+				<?php $this->load->view('frontend/main_template/social');?>
+				<?php echo anchor('auth/login', 'Sign-in', array('class'=>'menu_item', 'title'=>'Login page')); ?>
+				<span class="divider">|</span>Create account<span class="divider">|</span>Email notifications
 			</div>
 		</div>
 	</div>
@@ -29,7 +30,7 @@
 			</div>
 			<div class="bottombar">
 				Vacation Rentals Only! - Discounts Only!
-				<?php $this->load->view('main_template/searchbar');?>
+				<?php $this->load->view('frontend/main_template/searchbar');?>
 			</div>
 		</div>
 	</div>

@@ -67,8 +67,9 @@ body {
 	margin-left: 15px;
 }
 
-a.menu_item, a.menu_item:hover {
-	color: $banner-color;
+a.menu_item, a.menu_item:hover, a.menu_item:visited {
+	color: $signin-color;
+	text-decoration: none;
 }
 
 .imgsearch {
@@ -188,7 +189,7 @@ $indent-columns: 2;
 			color:#fff;
 			vertical-align:middle;
 			padding:0 1px;
-			font-weight:bold;
+//			font-weight:bold;
 			display: inline-block;
 		}
 	}
