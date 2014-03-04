@@ -1,1 +1,3 @@
-Welcome to the adminstration page.
+<div id='account'>
+	<p>Welcome to the adminstration page.</p>
+</div>

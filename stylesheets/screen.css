@@ -312,6 +312,11 @@ a.menu_item, a.menu_item:hover, a.menu_item:visited {
   background: url("../images/social-main-sprite.png") no-repeat -215px -37px;
 }
 
+/* line 212, ../sass/partials/_main.scss */
+#signin {
+  padding: 50px;
+}
+
 /* line 33, ../../lib/ruby/gems/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
 body {
   line-height: 1.5;

@@ -78,7 +78,8 @@ class Auth extends CI_Controller {
 				//if the login was un-successful
 				//redirect them back to the login page
 				$this->session->set_flashdata('message', $this->ion_auth->errors());
-				redirect('auth/login', 'refresh'); //use redirects instead of loading views for compatibility with MY_Controller libraries
+//				redirect('auth/login', 'refresh'); //use redirects instead of loading views for compatibility with MY_Controller libraries
+				$this->load->template_main('auth/login', $this->data);
 			}
 		}
 		else
@@ -97,7 +98,8 @@ class Auth extends CI_Controller {
 				'type' => 'password',
 			);
 
-			$this->_render_page('auth/login', $this->data);
+//			$this->_render_page('auth/login', $this->data);
+			$this->load->template_main('auth/login', $this->data);
 		}
 	}
 
