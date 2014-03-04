@@ -3,8 +3,6 @@ class Home extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->helper('html');
-		$this->load->helper('url');
 		$vars['title'] = 'Home Page';
 		$search_img = array(
 			'src' => '../images/search.jpg',

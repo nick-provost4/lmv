@@ -23,7 +23,7 @@
 	<div class="bannertop">
 		<div class="container showgrid">
 			<div id="header" class="hbground">
-				<img class="hlogo" alt="Vacation Rentals Discounts" src="/images/logo.png">
+				<?php echo anchor('home', img(array('src'=>'/images/logo.png', 'class'=>'hlogo')), array('class'=>'menu_item', 'title'=>'Home page')); ?>
 				<!-- <div class="menu">
 					<?php // echo anchor('home', 'Home', array('class'=>'menu_item', 'title'=>'Home page')); ?>
 				</div> -->
