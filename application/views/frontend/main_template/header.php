@@ -10,12 +10,12 @@
 	<script src="/javascript/library.js"></script>
 </head>
 <body>
-<!--	<button class="toggle-grid">Toggle-grid</button>  -->
+	<button class="toggle-grid">Toggle-grid</button>
 	<div class="topbar">
 		<div class="container showgrid topbanner">
 			<div class="signin">
 				<?php $this->load->view('frontend/main_template/social');?>
-				<?php echo anchor('signin', 'Sign-in', array('class'=>'menu_item', 'title'=>'Sign-in page')); ?>
+				<?php echo anchor($signin, $signin_text, array('class'=>'menu_item', 'title'=>'Sign-in page')); ?>
 				<span class="divider">|</span>Create account<span class="divider">|</span>Email notifications
 			</div>
 		</div>

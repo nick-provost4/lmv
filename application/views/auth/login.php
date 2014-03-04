@@ -1,4 +1,4 @@
-<div id="signin">
+<div class="signin_box">
 <h1><?php echo lang('login_heading');?></h1>
 <p><?php echo lang('login_subheading');?></p>
 

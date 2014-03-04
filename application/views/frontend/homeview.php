@@ -1,4 +1,4 @@
-		<div id="content" class="cbground">
+		<div id="content">
 			<div class="about">
 				Welcome to Vacation Rental Discounts! Dedicated to providing only discounts for your favorite
 				vacation rentals.

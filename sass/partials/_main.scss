@@ -102,24 +102,22 @@ a.menu_item, a.menu_item:hover, a.menu_item:visited {
 
 // content classes
 #content {
+	margin-top: 5px;
 	min-height: 400px;
 }
 
-.cbground {
-	padding: 5px;
-	.listing {
-		clear: both;
-		padding: 15px;
-		@include border-radius;
-		width: span($blueprint-grid-columns) -10px;
-		height: 100px;
-		background-color: #ffffff;
-		border: 1px solid #ccc;
-		border-top: none;
-		border-bottom: 1px solid;
-		margin-top: 5px;
-		margin-bottom: 10px;
-	}
+.listing {
+	clear: both;
+	padding: 15px;
+	@include border-radius;
+	width: span($blueprint-grid-columns) -10px;
+	height: 100px;
+	background-color: #ffffff;
+	border: 1px solid #ccc;
+	border-top: none;
+	border-bottom: 1px solid;
+	margin-top: 5px;
+	margin-bottom: 10px;
 }
 
 .about {
@@ -209,6 +207,11 @@ $indent-columns: 2;
 }
 
 // signin view
-#signin {
-	padding: 50px;
+.signin_box {
+	padding: span(1);
+	border: 2px solid $top-bar-color;
+	@include border-radius(4px, 4px);
+	margin-top: 25px;
+	@include push(5);
+	width: span(13) - 2 * $blueprint-grid-margin - 2px;
 }

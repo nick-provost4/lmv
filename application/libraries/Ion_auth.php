@@ -423,7 +423,7 @@ class Ion_auth
 	}
 
 	/**
-	 * logged_in
+	 * get_user_id
 	 *
 	 * @return integer
 	 * @author jrmadsen67

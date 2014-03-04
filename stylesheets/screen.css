@@ -170,15 +170,12 @@ a.menu_item, a.menu_item:hover, a.menu_item:visited {
 
 /* line 104, ../sass/partials/_main.scss */
 #content {
+  margin-top: 5px;
   min-height: 400px;
 }
 
-/* line 108, ../sass/partials/_main.scss */
-.cbground {
-  padding: 5px;
-}
-/* line 110, ../sass/partials/_main.scss */
-.cbground .listing {
+/* line 109, ../sass/partials/_main.scss */
+.listing {
   clear: both;
   padding: 15px;
   -webkit-border-radius: 5px;
@@ -196,7 +193,7 @@ a.menu_item, a.menu_item:hover, a.menu_item:visited {
   margin-bottom: 10px;
 }
 
-/* line 125, ../sass/partials/_main.scss */
+/* line 123, ../sass/partials/_main.scss */
 .about {
   float: left;
   padding: 5px;
@@ -211,7 +208,7 @@ a.menu_item, a.menu_item:hover, a.menu_item:visited {
   margin-bottom: 10px;
 }
 
-/* line 139, ../sass/partials/_main.scss */
+/* line 137, ../sass/partials/_main.scss */
 .search {
   float: right;
   padding: 5px;
@@ -226,12 +223,12 @@ a.menu_item, a.menu_item:hover, a.menu_item:visited {
   margin-bottom: 10px;
 }
 
-/* line 155, ../sass/partials/_main.scss */
+/* line 153, ../sass/partials/_main.scss */
 #footer {
   height: 80px;
   background-color: #7d92c7;
 }
-/* line 158, ../sass/partials/_main.scss */
+/* line 156, ../sass/partials/_main.scss */
 #footer .bmenu {
   line-height: 40px;
   color: white;
@@ -239,17 +236,17 @@ a.menu_item, a.menu_item:hover, a.menu_item:visited {
   font-family: 'PT Sans',Arial,Helvetica,sans-serif;
 }
 
-/* line 166, ../sass/partials/_main.scss */
+/* line 164, ../sass/partials/_main.scss */
 .fbground {
   background-color: #f7c694;
 }
 
-/* line 172, ../sass/partials/_main.scss */
+/* line 170, ../sass/partials/_main.scss */
 .left-indent {
   margin-left: 60px;
 }
 
-/* line 176, ../sass/partials/_main.scss */
+/* line 174, ../sass/partials/_main.scss */
 .divider {
   color: #ffcb3f;
   font-size: 12px;
@@ -258,63 +255,73 @@ a.menu_item, a.menu_item:hover, a.menu_item:visited {
   margin: 0 8px;
 }
 
-/* line 184, ../sass/partials/_main.scss */
+/* line 182, ../sass/partials/_main.scss */
 .social {
   float: right;
 }
-/* line 186, ../sass/partials/_main.scss */
+/* line 184, ../sass/partials/_main.scss */
 .social ul {
   list-style: none;
 }
-/* line 188, ../sass/partials/_main.scss */
+/* line 186, ../sass/partials/_main.scss */
 .social ul li {
   color: #fff;
   vertical-align: middle;
   padding: 0 1px;
   display: inline-block;
 }
-/* line 196, ../sass/partials/_main.scss */
+/* line 194, ../sass/partials/_main.scss */
 .social a.simg {
   width: 32px;
   height: 32px;
   display: block;
 }
-/* line 201, ../sass/partials/_main.scss */
+/* line 199, ../sass/partials/_main.scss */
 .social a.ico-facebook {
   background: url("../images/social-main-sprite.png") no-repeat -16px -1px;
 }
-/* line 202, ../sass/partials/_main.scss */
+/* line 200, ../sass/partials/_main.scss */
 .social a.ico-facebook:hover {
   background: url("../images/social-main-sprite.png") no-repeat -16px -37px;
 }
-/* line 203, ../sass/partials/_main.scss */
+/* line 201, ../sass/partials/_main.scss */
 .social a.ico-twitter {
   background: url("../images/social-main-sprite.png") no-repeat -56px -1px;
 }
-/* line 204, ../sass/partials/_main.scss */
+/* line 202, ../sass/partials/_main.scss */
 .social a.ico-twitter:hover {
   background: url("../images/social-main-sprite.png") no-repeat -56px -37px;
 }
-/* line 205, ../sass/partials/_main.scss */
+/* line 203, ../sass/partials/_main.scss */
 .social a.ico-google {
   background: url("../images/social-main-sprite.png") no-repeat -176px -1px;
 }
-/* line 206, ../sass/partials/_main.scss */
+/* line 204, ../sass/partials/_main.scss */
 .social a.ico-google:hover {
   background: url("../images/social-main-sprite.png") no-repeat -176px -37px;
 }
-/* line 207, ../sass/partials/_main.scss */
+/* line 205, ../sass/partials/_main.scss */
 .social a.ico-blog {
   background: url("../images/social-main-sprite.png") no-repeat -215px -1px;
 }
-/* line 208, ../sass/partials/_main.scss */
+/* line 206, ../sass/partials/_main.scss */
 .social a.ico-blog:hover {
   background: url("../images/social-main-sprite.png") no-repeat -215px -37px;
 }
 
-/* line 212, ../sass/partials/_main.scss */
-#signin {
-  padding: 50px;
+/* line 210, ../sass/partials/_main.scss */
+.signin_box {
+  padding: 30px;
+  border: 2px solid #7d92c7;
+  -webkit-border-radius: 4px 4px;
+  -moz-border-radius: 4px / 4px;
+  border-radius: 4px / 4px;
+  margin-top: 25px;
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0 -200px 1.5em 200px;
+  width: 488px;
 }
 
 /* line 33, ../../lib/ruby/gems/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */
