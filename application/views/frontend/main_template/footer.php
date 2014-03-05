@@ -1,4 +1,3 @@
-		</div>
 	</div>
 	<div id="footer" class="fbground">
 		<div class="container showgrid bottombanner">

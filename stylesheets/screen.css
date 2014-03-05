@@ -223,93 +223,7 @@ a.menu_item, a.menu_item:hover, a.menu_item:visited {
   margin-bottom: 10px;
 }
 
-/* line 153, ../sass/partials/_main.scss */
-#footer {
-  height: 80px;
-  background-color: #7d92c7;
-}
-/* line 156, ../sass/partials/_main.scss */
-#footer .bmenu {
-  line-height: 40px;
-  color: white;
-  font-size: 12px;
-  font-family: 'PT Sans',Arial,Helvetica,sans-serif;
-}
-
-/* line 164, ../sass/partials/_main.scss */
-.fbground {
-  background-color: #f7c694;
-}
-
-/* line 170, ../sass/partials/_main.scss */
-.left-indent {
-  margin-left: 60px;
-}
-
-/* line 174, ../sass/partials/_main.scss */
-.divider {
-  color: #ffcb3f;
-  font-size: 12px;
-  font-weight: 500;
-  display: inline;
-  margin: 0 8px;
-}
-
-/* line 182, ../sass/partials/_main.scss */
-.social {
-  float: right;
-}
-/* line 184, ../sass/partials/_main.scss */
-.social ul {
-  list-style: none;
-}
-/* line 186, ../sass/partials/_main.scss */
-.social ul li {
-  color: #fff;
-  vertical-align: middle;
-  padding: 0 1px;
-  display: inline-block;
-}
-/* line 194, ../sass/partials/_main.scss */
-.social a.simg {
-  width: 32px;
-  height: 32px;
-  display: block;
-}
-/* line 199, ../sass/partials/_main.scss */
-.social a.ico-facebook {
-  background: url("../images/social-main-sprite.png") no-repeat -16px -1px;
-}
-/* line 200, ../sass/partials/_main.scss */
-.social a.ico-facebook:hover {
-  background: url("../images/social-main-sprite.png") no-repeat -16px -37px;
-}
-/* line 201, ../sass/partials/_main.scss */
-.social a.ico-twitter {
-  background: url("../images/social-main-sprite.png") no-repeat -56px -1px;
-}
-/* line 202, ../sass/partials/_main.scss */
-.social a.ico-twitter:hover {
-  background: url("../images/social-main-sprite.png") no-repeat -56px -37px;
-}
-/* line 203, ../sass/partials/_main.scss */
-.social a.ico-google {
-  background: url("../images/social-main-sprite.png") no-repeat -176px -1px;
-}
-/* line 204, ../sass/partials/_main.scss */
-.social a.ico-google:hover {
-  background: url("../images/social-main-sprite.png") no-repeat -176px -37px;
-}
-/* line 205, ../sass/partials/_main.scss */
-.social a.ico-blog {
-  background: url("../images/social-main-sprite.png") no-repeat -215px -1px;
-}
-/* line 206, ../sass/partials/_main.scss */
-.social a.ico-blog:hover {
-  background: url("../images/social-main-sprite.png") no-repeat -215px -37px;
-}
-
-/* line 210, ../sass/partials/_main.scss */
+/* line 151, ../sass/partials/_main.scss */
 .signin_box {
   padding: 30px;
   border: 2px solid #7d92c7;
@@ -318,6 +232,103 @@ a.menu_item, a.menu_item:hover, a.menu_item:visited {
   border-radius: 4px / 4px;
   margin: 0 -200px 1.5em 200px;
   width: 488px;
+}
+
+/* line 159, ../sass/partials/_main.scss */
+.create_user_box {
+  padding: 30px;
+  border: 2px solid #7d92c7;
+  -webkit-border-radius: 4px 4px;
+  -moz-border-radius: 4px / 4px;
+  border-radius: 4px / 4px;
+  margin: 0 -80px 1.5em 80px;
+  width: 728px;
+}
+
+/* line 168, ../sass/partials/_main.scss */
+#footer {
+  height: 80px;
+  background-color: #7d92c7;
+}
+/* line 171, ../sass/partials/_main.scss */
+#footer .bmenu {
+  line-height: 40px;
+  color: white;
+  font-size: 12px;
+  font-family: 'PT Sans',Arial,Helvetica,sans-serif;
+}
+
+/* line 179, ../sass/partials/_main.scss */
+.fbground {
+  background-color: #f7c694;
+}
+
+/* line 185, ../sass/partials/_main.scss */
+.left-indent {
+  margin-left: 60px;
+}
+
+/* line 189, ../sass/partials/_main.scss */
+.divider {
+  color: #ffcb3f;
+  font-size: 12px;
+  font-weight: 500;
+  display: inline;
+  margin: 0 8px;
+}
+
+/* line 197, ../sass/partials/_main.scss */
+.social {
+  float: right;
+}
+/* line 199, ../sass/partials/_main.scss */
+.social ul {
+  list-style: none;
+}
+/* line 201, ../sass/partials/_main.scss */
+.social ul li {
+  color: #fff;
+  vertical-align: middle;
+  padding: 0 1px;
+  display: inline-block;
+}
+/* line 209, ../sass/partials/_main.scss */
+.social a.simg {
+  width: 32px;
+  height: 32px;
+  display: block;
+}
+/* line 214, ../sass/partials/_main.scss */
+.social a.ico-facebook {
+  background: url("../images/social-main-sprite.png") no-repeat -16px -1px;
+}
+/* line 215, ../sass/partials/_main.scss */
+.social a.ico-facebook:hover {
+  background: url("../images/social-main-sprite.png") no-repeat -16px -37px;
+}
+/* line 216, ../sass/partials/_main.scss */
+.social a.ico-twitter {
+  background: url("../images/social-main-sprite.png") no-repeat -56px -1px;
+}
+/* line 217, ../sass/partials/_main.scss */
+.social a.ico-twitter:hover {
+  background: url("../images/social-main-sprite.png") no-repeat -56px -37px;
+}
+/* line 218, ../sass/partials/_main.scss */
+.social a.ico-google {
+  background: url("../images/social-main-sprite.png") no-repeat -176px -1px;
+}
+/* line 219, ../sass/partials/_main.scss */
+.social a.ico-google:hover {
+  background: url("../images/social-main-sprite.png") no-repeat -176px -37px;
+}
+/* line 220, ../sass/partials/_main.scss */
+.social a.ico-blog {
+  background: url("../images/social-main-sprite.png") no-repeat -215px -1px;
+}
+/* line 221, ../sass/partials/_main.scss */
+.social a.ico-blog:hover {
+  background: url("../images/social-main-sprite.png") no-repeat -215px -37px;
 }
 
 /* line 33, ../../lib/ruby/gems/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_typography.scss */

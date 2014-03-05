@@ -7,7 +7,6 @@ class MY_Controller extends CI_Controller {
 		parent::__construct();
 	}
 
-
 }
 
 /* End of MY_Controller.php file */

@@ -148,6 +148,21 @@ a.menu_item, a.menu_item:hover, a.menu_item:visited {
 	margin-bottom: 10px;
 }
 
+.signin_box {
+	padding: span(1);
+	border: 2px solid $top-bar-color;
+	@include border-radius(4px, 4px);
+	@include push-margins(5);
+	width: span(13) - 2 * $blueprint-grid-margin - 2px;
+}
+
+.create_user_box {
+	padding: span(1);
+	border: 2px solid $top-bar-color;
+	@include border-radius(4px, 4px);
+	@include push-margins(2);
+	width: span(19) - 2 * $blueprint-grid-margin - 2px;
+}
 
 // footer classes
 #footer {
@@ -204,13 +219,4 @@ $indent-columns: 2;
 	a.ico-google:hover{background:url("../images/social-main-sprite.png") no-repeat -176px -37px}
 	a.ico-blog{background:url("../images/social-main-sprite.png") no-repeat -215px -1px}
 	a.ico-blog:hover{background:url("../images/social-main-sprite.png") no-repeat -215px -37px}
-}
-
-// signin view
-.signin_box {
-	padding: span(1);
-	border: 2px solid $top-bar-color;
-	@include border-radius(4px, 4px);
-	@include push-margins(5);
-	width: span(13) - 2 * $blueprint-grid-margin - 2px;
 }
