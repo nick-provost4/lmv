@@ -54,7 +54,7 @@ class Auth extends MY_Controller {
 	//log the user in
 	function login()
 	{
-		$this->data['title'] = "Login";
+		$this->data['title'] = "Sign-in";
 
 		//validate form input
 		$this->form_validation->set_rules('identity', 'Identity', 'required');
@@ -393,12 +393,15 @@ class Auth extends MY_Controller {
 	//create a new user
 	function create_user()
 	{
+		// add captcha - mjp
+		$this->load->helper('captcha');
+
 		$this->data['title'] = "Create User";
 
-		if (!$this->ion_auth->logged_in() || !$this->ion_auth->is_admin())
-		{
-			redirect('auth', 'refresh');
-		}
+		// if (!$this->ion_auth->logged_in() || !$this->ion_auth->is_admin())
+		// {
+		// 	redirect('auth', 'refresh');
+		// }
 
 		//validate form input
 		$this->form_validation->set_rules('first_name', $this->lang->line('create_user_validation_fname_label'), 'required|xss_clean');
@@ -408,6 +411,7 @@ class Auth extends MY_Controller {
 		$this->form_validation->set_rules('company', $this->lang->line('create_user_validation_company_label'), 'required|xss_clean');
 		$this->form_validation->set_rules('password', $this->lang->line('create_user_validation_password_label'), 'required|min_length[' . $this->config->item('min_password_length', 'ion_auth') . ']|max_length[' . $this->config->item('max_password_length', 'ion_auth') . ']|matches[password_confirm]');
 		$this->form_validation->set_rules('password_confirm', $this->lang->line('create_user_validation_password_confirm_label'), 'required');
+		$this->form_validation->set_rules('captcha_word', 'Captcha word', 'required|xss_clean');
 
 		if ($this->form_validation->run() == true)
 		{
@@ -434,6 +438,24 @@ class Auth extends MY_Controller {
 			//display the create user form
 			//set the flash data error message if there is one
 			$this->data['message'] = (validation_errors() ? validation_errors() : ($this->ion_auth->errors() ? $this->ion_auth->errors() : $this->session->flashdata('message')));
+
+			$vars = array(
+				'word'	 => rand(100000, 999999),
+				'img_path'	 => './images/captcha/',
+				'img_url'	 => '../images/captcha/',
+				'font_path'	 => './system/fonts/texb.ttf',
+				'img_width'	 => '150',
+				'img_height' => 30,
+				'expiration' => 7200
+			);
+	    	$cap = create_captcha($vars);
+	    	$this->data['captcha'] = $cap['image'];
+			$this->data['captcha_word'] = array(
+				'name'  => 'captcha_word',
+				'id'    => 'captcha_word',
+				'type'  => 'text',
+				'value' => $this->form_validation->set_value('captcha_word')
+			);
 
 			$this->data['first_name'] = array(
 				'name'  => 'first_name',
@@ -478,7 +500,7 @@ class Auth extends MY_Controller {
 				'value' => $this->form_validation->set_value('password_confirm'),
 			);
 
-			$this->_render_page('auth/create_user', $this->data);
+//			$this->_render_page('auth/create_user', $this->data);
 			$this->load->template_main('auth/create_user', $this->data);
 		}
 	}

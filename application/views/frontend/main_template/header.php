@@ -37,4 +37,4 @@
 		</div>
 	</div>
 	<div class="container showgrid">
-		<div id="content">
+		<div id="content"  class=<?=$class?>>
