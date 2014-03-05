@@ -478,7 +478,7 @@ class Auth extends MY_Controller {
 				'value' => $this->form_validation->set_value('password_confirm'),
 			);
 
-//			$this->_render_page('auth/create_user', $this->data);
+			$this->_render_page('auth/create_user', $this->data);
 			$this->load->template_main('auth/create_user', $this->data);
 		}
 	}
