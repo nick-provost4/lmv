@@ -42,6 +42,7 @@ $route['default_controller'] = "home";
 $route['404_override'] = '';
 $route['signin'] = 'auth/login';
 $route['signout'] = 'auth/logout';
+$route['create_account'] = 'auth/create_user';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

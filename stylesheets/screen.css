@@ -316,10 +316,6 @@ a.menu_item, a.menu_item:hover, a.menu_item:visited {
   -webkit-border-radius: 4px 4px;
   -moz-border-radius: 4px / 4px;
   border-radius: 4px / 4px;
-  margin-top: 25px;
-  display: inline;
-  float: left;
-  position: relative;
   margin: 0 -200px 1.5em 200px;
   width: 488px;
 }

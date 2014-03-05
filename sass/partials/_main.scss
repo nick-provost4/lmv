@@ -211,7 +211,6 @@ $indent-columns: 2;
 	padding: span(1);
 	border: 2px solid $top-bar-color;
 	@include border-radius(4px, 4px);
-	margin-top: 25px;
-	@include push(5);
+	@include push-margins(5);
 	width: span(13) - 2 * $blueprint-grid-margin - 2px;
 }

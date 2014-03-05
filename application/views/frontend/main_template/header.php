@@ -16,7 +16,9 @@
 			<div class="signin">
 				<?php $this->load->view('frontend/main_template/social');?>
 				<?php echo anchor($signin, $signin_text, array('class'=>'menu_item', 'title'=>'Sign-in page')); ?>
-				<span class="divider">|</span>Create account<span class="divider">|</span>Email notifications
+				<span class="divider">|</span>
+				<?php echo anchor('create_account', 'Create account', array('class'=>'menu_item', 'title'=>'Create account page')); ?>
+				<span class="divider">|</span>Email notifications
 			</div>
 		</div>
 	</div>
@@ -35,3 +37,4 @@
 		</div>
 	</div>
 	<div class="container showgrid">
+		<div id="content">

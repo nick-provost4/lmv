@@ -1,4 +1,3 @@
-		<div id="content">
 			<div class="about">
 				Welcome to Vacation Rental Discounts! Dedicated to providing only discounts for your favorite
 				vacation rentals.
@@ -15,4 +14,3 @@
 			<div class="listing">
 				Here is the next listing ...
 			</div>
-		</div>
