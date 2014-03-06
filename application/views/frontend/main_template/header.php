@@ -17,13 +17,10 @@
 				<?php $this->load->view('frontend/main_template/social');?>
 				<?php echo anchor($signin, $signin_text, array('class'=>'menu_item', 'title'=>'Sign-in')); ?>
 				<span class="divider">|</span>
-				<?php if ($signin == 'signout'); ?>
-					<?php //echo anchor('edit_account', 'Update account', array('class'=>'menu_item', 'title'=>'Update account')); ?>
-					<span class="divider">|</span>
-				<?php endif ?>
-				<?php echo anchor('create_account', 'Email notifications', array('class'=>'menu_item', 'title'=>'Email notifications')); ?>
+				<?=$update?>
+				<?php echo anchor('email_notify', 'Email notifications', array('class'=>'menu_item', 'title'=>'Email notifications')); ?>
 				<span class="divider">|</span>
-				<?php echo anchor('create_account', 'List your property', array('class'=>'menu_item', 'title'=>'List your property')); ?>
+				<?php echo anchor('list_property', 'List your property', array('class'=>'menu_item', 'title'=>'List your property')); ?>
 			</div>
 		</div>
 	</div>

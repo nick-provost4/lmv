@@ -38,11 +38,13 @@
 |
 */
 
-$route['default_controller'] = "home";
-$route['404_override'] = '';
-$route['signin'] = 'auth/login';
-$route['signout'] = 'auth/logout';
-$route['create_account'] = 'auth/create_user';
+$route['default_controller']	= "home";
+$route['404_override'] 			= '';
+$route['signin'] 				= 'auth/login';
+$route['signout'] 				= 'auth/logout';
+$route['create_account'] 		= 'auth/create_user';
+$route['email_notify'] 			= 'home/email_notify';
+$route['list_property']			= 'home/list_property';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
